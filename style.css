@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    margin: 0px;
+    cursor: progress;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+h3{
+    font-size: 25px;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    gap:15px;
+    list-style-type: none;
+
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row ;
+    gap: 52px;
+    margin: 10px;
+    padding: 100px;
+
+  }
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+.third{
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+    padding-bottom: 100px;
+    font-weight: 900px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+
+
+}
+
+.box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: gold dotted;
+    justify-content: center;
+    align-items: center;
+}
+
+.hi{
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+
+.fourth{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: grey;
+    padding: 150px;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+}
+
+.quotes{
+    display: flex;
+    align-items: center
+    
+}
+.name{
+    margin-top: 30px;
+    align-self: flex-end;
+    font-size: 30px;
+
+}
+.last{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 200px;
+    font-weight: 900px;
+    align-items: center;
+    padding: 150px;
+ 
+
+}
+
+.bye{
+    border: orange groove;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 200px;
+    font-weight: 900px;
+    align-items: center;
+    padding: 150px;
+}
+
+.footer{
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
